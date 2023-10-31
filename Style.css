@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#body{
+    background-image: linear-gradient( peachpuff,hotpink );
+    font-family: "Segoe Print" ;
+}
+#db{
+
+    border: 0;
+    width: 50px;
+    height: 50px;
+}
+#enb{
+
+    border: 0;
+    width:50px;
+    height: 50px;
+}
+
+.ho{
+    position: fixed;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    gap: 28px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.home:hover{
+    background: hotpink;
+    color: black;
+}
+
+
+.home{
+    transition-duration: 0.4s;
+    font-size: 20px;
+    border: 5px solid white;
+    border-radius: 20px;
+    color: black;
+    background: peachpuff;
+
+    width: 180px;
+    line-height: 50px;
+    font-family: "Segoe Print" ;
+    text-decoration: none;
+    text-align: center;
+}
+
+.intro{
+
+}
+
+#me{
+    margin: 100px 0px 20px 250px;
+    border: 5px solid white;
+
+
+
+}
+
+#name{
+    font-family: "Segoe Print";
+    color: white;
+    font-size: 50px;
+    float: right;
+    margin: 250px 100px 0px 0px;
+    text-shadow: 0PX  0PX 10px #000000;
+}
+
+#aboutMe{
+    padding: 10px;
+    font-size: 25px;
+    margin: 0px 70px 50px 110px;
+    background: white;
+    width: auto;
+    height: 250px;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+
+#development{
+    margin-top:10PX;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 30px;
+
+}
+
+#dev{
+    margin-top: 40px;
+    background: white;
+    width: 450px;
+    height: 100px;
+    border: 5px solid black;
+    padding: 0px 20px 20px 10px;
+    border-radius: 30px;
+    margin-bottom: 2px;
+}
+
+#pro{
+    padding: 0px 20px 20px 10px;
+    background: white;
+    width: 275px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 30px;
+
+}
+
+#devBox{
+margin: 100px 0px 50px 50px;
+}
+
+.devFlex{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
+
+}
+
+#pong{
+    border:5px solid black ;
+}
+#pongC{
+    font-size: 30px;
+}
+
+#soundB{
+    font-size: 30px;
+}
+#cluedoT{
+    font-size: 30px;
+}
+
+.textBox{
+    padding: 10px;
+    font-size: 19px;
+    margin-left: 70px;
+    background: white;
+    width: 780px;
+    height: 200px;
+    border:5px solid black;
+    border-radius: 30px;
+}
+
+#soundboard{
+    border:5px solid black ;
+}
+
+#cluedo{
+    border:5px solid black ;
+}
+
+#education{
+   display: flex;
+  justify-content: center;
+}
+
+#edu{
+    padding-left: 10px;
+    margin-top: 50px;
+    font-size: 70px;
+    background: white;
+    border: 5px solid black;
+    width: 370px;
+    border-radius: 30px;
+}
+
+#eb{
+    display: flex;
+    justify-content: center;
+}
+
+#eduBox {
+    padding: 10px;
+    font-size: 25px;
+    margin: 50px 0px 50px 0px;
+    width: 1000px;
+    height: 200px;
+    background: white;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+
+
+
+
+#vb{
+    display: flex;
+    justify-content: center;
+}
+#vidText{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 90px;
+    background: white;
+    border: 5px solid black;
+    padding-left: 10px;
+    padding-right:10px;
+    border-radius: 30px;
+}
+
+.video{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: center;
+
+}
+
+.videoLogo{
+
+    background: white;
+    width: 380px;
+    height: 230px;
+    border: 5px solid black;
+}
+
+#vidlogo{
+    border: 5px solid white;
+}
+#vidlogo1{
+    border: 5px solid black;
+}
+
+.vidBox{
+    margin-left: 50px;
+    border-radius: 30px;
+    background: white;
+    width: 800px;
+    line-height: 230px;
+    border:5px solid black;
+    text-align: center;
+    font-size: 100px;
+}
+#vidBox2{
+    margin-left: 50px;
+    border-radius: 30px;
+    background: white;
+    width: 800px;
+    border:5px solid black;
+    font-size: 31px;
+    text-align: center;
+   
+}
+
+#soFlex{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+#so{
+    font-size: 70px;
+    background: white;
+    border: 5px solid black;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#socials{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
+#linkedIn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+
+    width: 650px;
+}
+
+#linked{
+    border: 5px solid white;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.49);
+
+}
+
+#linkName{
+    margin-left: 30px;
+    color: white;
+    font-size: 50px;
+}
+
+#youtube{
+    margin-left: 200px;
+    width: 500px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#youbu{
+border-radius: 50px;
+    border: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.49);
+}
+
+#yout{
+    border-radius: 45px;
+    margin-top: 3px;
+    border: 5px solid white;
+}
+
+#youtubeName{
+    color: white;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#cont{
+    font-size: 70px;
+    background: white;
+    border: 5px solid black;
+    margin-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
+
+#contactBox{
+    display: flex;
+    justify-content: center;
+}
+
+#email{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 70px;
+    text-shadow: 0PX  0PX 10px #000000;
+}
